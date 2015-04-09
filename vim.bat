@@ -41,4 +41,8 @@ echo "Installing vim plugins"
 
 vim.exe +PluginInstall +qall
 
+echo "Installing vim snippets"
+
+git clone https://github.com/ianreay/ultisnips.git %USERPROFILE%/vimfiles/ultisnips
+
 echo "Please restart command prompt to have environment changes take effect."

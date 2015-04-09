@@ -9,3 +9,4 @@ choco install curl
 choco install windirstat
 choco install wireshark
 choco install baretail
+choco install console2
